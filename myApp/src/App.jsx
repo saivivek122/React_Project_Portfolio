@@ -24,8 +24,7 @@ function App() {
           <Route path="/contact" element={<Contact dark={dark} />} />
         </Routes>
       {/* </Router> */}
-    </div>
-
+    </div>         
   )
 }
 
