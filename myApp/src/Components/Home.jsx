@@ -27,7 +27,7 @@ function Home({ dark }) {
         </motion.p>
 
  
-        <div className="flex justify-center md:justify-start gap-4 mt-4">
+        {/* <div className="flex justify-center md:justify-start gap-4 mt-4">
           <button className="px-6 py-3 bg-blue-600 text-white rounded-xl shadow hover:bg-blue-700 cursor-pointer">
             Hire Me
           </button>
@@ -40,7 +40,7 @@ function Home({ dark }) {
           >
             View Resume
           </button>
-        </div>
+        </div> */}
 
      
         <div className="flex justify-center md:justify-start gap-6 mt-6 text-2xl opacity-80">
