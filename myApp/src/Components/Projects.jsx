@@ -22,7 +22,7 @@ function Projects({ dark }) {
   title: "E Commerce Application",
   tech: "JavaScript, HTML, CSS",
   desc: "Built with core JavaScript features including login and signup authentication, dynamic product search, category filters, price sorting, and wishlist handling. Provides smooth UI interactions, real-time updates, and a fully functional cart system.",
-  live:"https://e-commerce-application-tqsq.vercel.app/"
+  live:"https://e-commerce-application-tqsq.vercel.app/",
    github:"https://github.com/saivivek122/E-Commerce-Application"
 }
 ,
