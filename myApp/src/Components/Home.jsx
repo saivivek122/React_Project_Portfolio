@@ -2,11 +2,12 @@ import {motion} from "framer-motion"
 import {Github,Linkedin,Mail} from "lucide-react"
 function Home({ dark }) {
   return (
-    <section
-      className={`pt-32 px-6  flex flex-col md:flex-row items-center justify-center gap-12 ${
-        dark ? "bg-gray-900 text-white" : "bg-gradient-to-b from-white to-gray-100"
-      }`}
-    >
+   <section
+  className={`pt-32 px-6 flex flex-col md:flex-row items-center justify-center gap-12 ${
+    dark ? "bg-gray-900 text-white" : "bg-white text-black"
+  }`}
+>
+
       
       <div className="max-w-xl text-center md:text-left">
         <motion.h1
