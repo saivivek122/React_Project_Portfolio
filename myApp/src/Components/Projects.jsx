@@ -9,6 +9,14 @@ function Projects({ dark }) {
   live:"https://react-project-crypto-tracker.vercel.app/",
   github:"https://github.com/saivivek122/React_Project_Crypto_Tracker"
 },
+{
+  title: "Blog Application",
+  tech: "React,HTML, CSS, JavaScript, Node.js, Express.js, MongoDB",
+  desc: "Built a full-stack blog application using the MERN stack with secure authentication and authorization. Includes user signup and login, protected routes, CRUD operations for blog posts, responsive UI design, and RESTful APIs. Ensures smooth frontend–backend integration, real-time updates, and efficient data storage with MongoDB.",
+  live: "https://full-stack-blog-frontend-lfxe.vercel.app/",
+  github: "https://github.com/saivivek122/Full_Stack_Blog"
+},
+
 
    {
   title: "Financely – Your Personal Finance Tracker",
@@ -18,6 +26,14 @@ function Projects({ dark }) {
   github:"https://github.com/saivivek122/REACT_PROJECT_FINACELY"
 },
 // https://e-commerce-application-tqsq.vercel.app/
+{
+  title: "Decide Your Dish",
+  tech: "React, Redux, HTML, CSS, JavaScript,",
+  desc: "Developed a frontend-focused food discovery application using React and Redux, emphasizing efficient state management. Features include dynamic dish rendering, category-based filtering, global state handling with Redux, reusable components, and responsive UI design. Ensures smooth user interactions, predictable state flow, and a clean, maintainable frontend architecture.",
+  live: "https://food-order-app-c4ec4.firebaseapp.com/",
+  // github: "https://github.com/saivivek122/decide-your-dish"
+},
+
  {
   title: "E Commerce Application",
   tech: "JavaScript, HTML, CSS",
@@ -63,9 +79,9 @@ function Projects({ dark }) {
               <a href={p.live}target="_blank" className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 flex items-center gap-2">
                 View Project
               </a>
-              <a href={p.github} target="_blank" className="px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-800 flex items-center gap-2">
+             {p.github && <a href={p.github} target="_blank" className="px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-800 flex items-center gap-2">
                 <Github size={18}/> GitHub
-              </a>
+              </a>}
             </div>
           </motion.div>
         ))}
