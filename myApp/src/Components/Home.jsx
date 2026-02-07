@@ -133,7 +133,7 @@ function Home({ dark }) {
                 to="/projects"
                 className="inline-flex items-center gap-2 text-blue-500 text-lg hover:underline"
               >
-                View Project <ExternalLink size={18} />
+               View Details →
               </Link>
             </div>
           </motion.div>
