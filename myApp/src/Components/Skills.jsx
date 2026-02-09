@@ -16,8 +16,8 @@ import {
 function Skills({ dark }) {
   const skills = [
     { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },
-    { name: "HTML", icon: <SiHtml5 className="text-yellow-400" /> },
-    { name: "CSS", icon: <SiCss3 className="text-yellow-400" /> },
+   { name: "HTML", icon: <SiHtml5 className="text-orange-600" /> },
+{ name: "CSS", icon: <SiCss3 className="text-blue-600" /> },
     { name: "React", icon: <SiReact className="text-cyan-400" /> },
     { name: "Node.js", icon: <SiNodedotjs className="text-green-500" /> },
     { name: "Express.js", icon: <SiExpress /> },
