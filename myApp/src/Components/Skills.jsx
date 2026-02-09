@@ -9,11 +9,15 @@ import {
   SiMui,
   SiGit,
   SiAxios,
+  SiHtml5,
+  SiCss3,
 } from "react-icons/si";
 
 function Skills({ dark }) {
   const skills = [
     { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },
+    { name: "HTML", icon: <SiHtml5 className="text-yellow-400" /> },
+    { name: "CSS", icon: <SiCss3 className="text-yellow-400" /> },
     { name: "React", icon: <SiReact className="text-cyan-400" /> },
     { name: "Node.js", icon: <SiNodedotjs className="text-green-500" /> },
     { name: "Express.js", icon: <SiExpress /> },
