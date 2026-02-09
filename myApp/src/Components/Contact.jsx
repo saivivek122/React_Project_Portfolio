@@ -11,7 +11,7 @@ function Contact({ dark }) {
           dark ? "bg-gray-800 border-gray-700" : "bg-white border-gray-100"
         }`}
       >
-        <h2 className="text-4xl font-extrabold mb-4">Contact Me On</h2>
+        <h2 className="text-4xl font-extrabold mb-4">Contact Me On</h2>  
         <p className="opacity-90 mb-6 text-lg">
           Feel free to reach out for job opportunities, collaborations, or project work!
         </p>
